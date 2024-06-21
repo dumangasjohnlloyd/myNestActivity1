@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { ProfileModule } from './profile/profile.module';
-import { ContactModule } from './contact/contact.module';
+import { ProfileModule } from './ProfileModule/profile.module';
+import { ContactModule } from './ContactModule/contact.module';
 
 @Module({
   imports: [ProfileModule, ContactModule],
